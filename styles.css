@@ -145,54 +145,76 @@ h1 {
     margin-left: 35px;
 }
 h2 {
-    margin-top: 260px;
+    margin-top: 200px;
     font-size: 50px;
     margin-left: 120px;
 }
 .product_image {
-    margin-left: 120px;
+    margin-left: 150px;
     margin-top: 120px;
     margin-bottom: 40px;
-    width: 380px;
+    width: 410px;
+    height: 440px;
 }
-.product_price, .product_name{
+.product_price, .product_name, .product_price_11, .product_price_9, .product_price_15, .product_price_14, .product_price_8, .product_price_16 {
    margin-top: 100px;
    font-size: 30px; 
    color: black;
 }
 .product_name {
-    margin-left: 120px;
+    margin-left: 150px;
 }
 .product_price {
-    margin-left: 60px;
+    margin-left: 95px;
+}
+.product_price_11 {
+    margin-left: 80px;
+}
+.product_price_9{
+    margin-left: 110px;
+}
+.product_price_15{
+    margin-left: 152px;
+}
+.product_price_14 {
+    margin-left: 122px;
+}
+.product_price_16 {
+    margin-left: 139px;
 }
 .small-line-horizontal {
     background-color: black;
     height: 5px;
     width: 270px;
     margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 150px;
     margin-bottom: 30px;
 }
 .product_description {
     font-size: 25px;
-    width: 385px;
-    margin-left: 120px;
-    margin-bottom: 120px;
+    width: 395px;
+    margin-left: 150px;
+    margin-bottom: 30px;
     color: black;
 }
 .learn_more {
-    margin-left: -380px;
     font-size: 25px;
     color: rgb(191, 118, 49);
+    margin-left: -412px;
+    text-decoration: underline;
 }
 .add_button {
-    margin-left: 45px;
+    margin-left: 80px;
     background-color: rgb(191, 118, 49);
     color: white;
     border-style: hidden;
     font-size: 25px;
     margin-top: 40px;
+}
+.product_clickables {
+    display: inline-block;
+    margin-top: -50px;
+    margin-bottom: 30px;
 }
 body > footer > p:nth-child(9) {
     margin-left: 1450px;
