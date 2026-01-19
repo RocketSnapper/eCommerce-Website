@@ -24,7 +24,7 @@ nav {
 nav ul {
     list-style-type: none;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -38px;
     margin-left: 10px;
     font-size: 20px;
 
@@ -37,23 +37,23 @@ nav ul > a {
 }
 body > header > div:nth-child(2) {
     margin-left: 1725px;
-    margin-top: -30px;    
+    margin-top: -35px;    
     font-size: 20px;    
 }
 body > header > div:nth-child(3)  {
     border-style: solid;
     border-radius: 1px;
     border-color: black;
-    width: 200px;
-    margin-left: 1475px;
-    margin-top: -30px;
+    width: 400px;
+    margin-left: 1275px;
+    margin-top: -32px;
     height: 30px;
 }
 body > header > div:nth-child(3) > img {
     height: 25px;
     width: 25px;
     margin-top: 1px;
-    margin-left: 165px;
+    margin-left: 365px;
 }
 body > header > div:nth-child(4) {
     background-color: black;
@@ -69,7 +69,7 @@ body > header > nav > div > a{
     text-decoration: none;
     align-self: center;
     font-weight: bold;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 body > header > nav > div  > a > div > img {
     height: 35px;
@@ -96,7 +96,7 @@ body > header > nav > div  > a > div > img {
     margin-left: 1500px;
 }
 main {
-    height:10500px;
+    height:5700px;
     margin: 1rem auto;
     width: 100%;
     margin-top: 2.5rem;
@@ -132,54 +132,54 @@ h1 {
 .third-paragraph{
     margin-top: 50px;
 }
-.about_tall {
+.about-tall {
     margin-left: 1140px;
     margin-top: 20px;
     width: 35%;
     height: 780px;
 }
-.about_short {
+.about-short {
     width: 25%;
     margin-top: 70px;
     height: 520px;
     margin-left: 35px;
 }
-h2 {
+h2, h3 {
     margin-top: 200px;
     font-size: 50px;
     margin-left: 120px;
 }
-.product_image {
+.product-image {
     margin-left: 150px;
     margin-top: 120px;
     margin-bottom: 40px;
     width: 410px;
     height: 440px;
 }
-.product_price, .product_name, .product_price_11, .product_price_9, .product_price_15, .product_price_14, .product_price_8, .product_price_16 {
+.product-price, .product-name, .product-price-2, .product-price-3, .product-price-4, .product-price-5, .product-price-6 {
    margin-top: 100px;
    font-size: 30px; 
    color: black;
 }
-.product_name {
+.product-name {
     margin-left: 150px;
 }
-.product_price {
+.product-price {
     margin-left: 95px;
 }
-.product_price_11 {
+.product-price-2 {
     margin-left: 80px;
 }
-.product_price_9{
+.product-price-3{
     margin-left: 110px;
 }
-.product_price_15{
+.product-price-4{
     margin-left: 152px;
 }
-.product_price_14 {
+.product-price-5 {
     margin-left: 122px;
 }
-.product_price_16 {
+.product-price-6 {
     margin-left: 139px;
 }
 .small-line-horizontal {
@@ -190,45 +190,115 @@ h2 {
     margin-left: 150px;
     margin-bottom: 30px;
 }
-.product_description {
+.product-description {
     font-size: 25px;
     width: 395px;
     margin-left: 150px;
     margin-bottom: 30px;
     color: black;
 }
-.learn_more {
+.learn-more {
     font-size: 25px;
     color: rgb(191, 118, 49);
     margin-left: -412px;
     text-decoration: underline;
 }
-.add_button {
-    margin-left: 80px;
+.add-button {
+    margin-left: 53px;
     background-color: rgb(191, 118, 49);
     color: white;
     border-style: hidden;
     font-size: 25px;
     margin-top: 40px;
+    height: 40px;
+    width: 190px;
 }
-.product_clickables {
+.product-clickables {
     display: inline-block;
     margin-top: -50px;
     margin-bottom: 30px;
 }
-body > footer > p:nth-child(9) {
-    margin-left: 1450px;
+.email-box {
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    width: 1000px;
+    margin-top: 30px;
+    height: 60px;
 }
-body > footer > p:nth-child(8) {
-    margin-left: 1150px;
-    margin-bottom: -30px;
+.email-container {
+    margin-left: 430px;
+    margin-top: 50px;
+    font-size: 30px;
 }
-body > footer > p:nth-child(4) {
-    margin-left: 800px;
+.message-box {
+    border-style: solid;
+    border-radius: 1px;
+    border-color: black;
+    width: 1000px;
+    margin-top: 30px;
+    height: 220px;
+}
+.message-container {
+    margin-left: 430px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.send-button {
+    margin-left: 1280px;
+    background-color: rgb(191, 118, 49);
+    color: white;
+    border-style: hidden;
+    font-size: 25px;
+    margin-top: 80px;
+    width: 150px;
+    height: 40px;
 }
 footer {
-    background-color: green;
-    height: 225px;
-    bottom: 0px;
+    background-color: rgb(191, 118, 49);
+    height: 160px;
     display: inline-flex;
+    width: 100%;
+}
+body > footer > div > a {
+    color: black;
+    font-size: 35px;
+    display: inline-flex;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 55px;
+    margin-left: 180px;
+}
+.youtube-icon {
+    margin-left: 460px;
+    margin-top: 20px;
+}
+.facebook-icon {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.twitter-icon {
+    margin-left: 123px;
+    margin-top: 20px;
+}
+.insta-icon {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.footer-notes {
+    display: inline-flex;
+    margin-top: 120px;
+    font-size: 22px;
+}
+.footer-left {
+    margin-left: -1020px;
+}
+.footer-mid {
+    margin-left: 225px;
+}
+.footer-right {
+    margin-left: 180px;
+}
+.footer-icon {
+    margin-top: -20px
 }
